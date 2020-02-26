@@ -1,4 +1,27 @@
-all:ct_5_pthread
+src = $(wildcard *.c)
+mid = $(patsubst %.c,%.o,$(src))
+fin = $(patsubst %.c,%,$(src))
 
-ct_5_pthread:ct_5_pthread.cpp
-	 g++ ct_5_pthread.cpp -lpthread -o ct_5_pthread
+ko = -lpthread -g -Wall
+
+all:$(mid) $(fin)
+
+
+%.o:%.c
+	gcc -c $<   $(ko)
+
+%:%.c
+	gcc $^ -o $@  $(ko)
+
+
+.PYONY:clean deletecfile
+
+clean:
+	-rm -rf *.o $(fin)
+
+deletecfile:
+	-rm -rf *.c
+
+
+
+
