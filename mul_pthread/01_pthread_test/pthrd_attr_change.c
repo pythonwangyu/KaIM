@@ -16,8 +16,8 @@ int main(void)
 {
 	pthread_t tid;
 	int err, detachstate, i = 1;
-	pthread_attr_t attr;
-	size_t stacksize;   //typedef  size_t  unsigned int 
+	pthread_attr_t attr;   //定义一个线程属性
+	size_t stacksize;     //typedef  size_t  unsigned int 
 	void *stackaddr;
 
 	pthread_attr_init(&attr);		

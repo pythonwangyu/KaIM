@@ -8,7 +8,7 @@ all:$(mid) $(fin)
 
 
 %.o:%.c
-	gcc -c $<   $(ko)
+	gcc -c $<   
 
 %:%.c
 	gcc $^ -o $@  $(ko)

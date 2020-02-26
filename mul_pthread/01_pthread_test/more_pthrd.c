@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <sys/cdefs.h>
 
 void *tfn(void *arg)
 {
