@@ -38,16 +38,17 @@ void *consumer(void *p)
 void *producer(void *p)
 {
     for (;;) {
-        mp = malloc(sizeof(struct msg));
+        mp = (struct msg*)malloc(sizeof(struct msg));
         mp->num = rand() % 1000 + 1;        //模拟生产一个产品
         printf("-Produce ---%d\n", mp->num);
 
-        pthread_mutex_lock(&lock);
+        pthread_mutex_lock(&lock);   //改变全局资源的时候要枷锁。
         mp->next = head;
         head = mp;
         pthread_mutex_unlock(&lock);
 
         pthread_cond_signal(&has_product);  //将等待在该条件变量上的一个线程唤醒
+        //注意pthread_cond_signal至少唤醒一个在队列上的阻塞。
         sleep(rand() % 5);
     }
 }

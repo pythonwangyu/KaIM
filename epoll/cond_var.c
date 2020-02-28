@@ -20,13 +20,13 @@ void *producter(void *arg)
     while (1) {
         mp = (struct msg*)malloc(sizeof(struct msg));
         mp->num = rand() % 400 + 1;
-        printf("---producted---%d\n", mp->num);
+        printf("---producted---%d\n", mp->num);     //生产数据，在堆区中增加需要的内存变量。
 
-        pthread_mutex_lock(&mutex);
+        pthread_mutex_lock(&mutex);   //给数据中间添加数据的时候应该加锁。
         mp->next = head;
         head = mp;
         pthread_mutex_unlock(&mutex);
-
+        //生产好之后，唤醒条件变量。
         pthread_cond_signal(&has_product);
         sleep(rand() % 3);
     }
@@ -37,13 +37,13 @@ void *producter(void *arg)
 void *consumer(void *arg)
 {
     while (1) {
-        pthread_mutex_lock(&mutex);
+        pthread_mutex_lock(&mutex);   //判断条件变量之前，需要抢夺到条件变量（锁）。
         while (head == NULL) {
-            pthread_cond_wait(&has_product, &mutex);
-        }
-        mp = head;
+            pthread_cond_wait(&has_product, &mutex);  //这个有两个步骤，但属于一个原子操作。（1）阻塞等待（2）解锁互斥量
+        }                                           //被唤醒后，函数返回，解除阻塞，重新获取互斥锁。
+        mp = head;              //继续自己要进行的操作
         head = mp->next;
-        pthread_mutex_unlock(&mutex);
+        pthread_mutex_unlock(&mutex);    //完成操作后，解除互斥锁。
 
         printf("------------------consumer--%d\n", mp->num);
         free(mp);

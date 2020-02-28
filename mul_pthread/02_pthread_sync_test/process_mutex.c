@@ -25,7 +25,7 @@ int main(void)
     close(fd);
     unlink("mt_test");
 */
-    mm = mmap(NULL, sizeof(*mm), PROT_READ|PROT_WRITE, MAP_SHARED|MAP_ANON, -1, 0);
+    mm = (struct mt*)mmap(NULL, sizeof(*mm), PROT_READ|PROT_WRITE, MAP_SHARED|MAP_ANON, -1, 0);
     memset(mm, 0, sizeof(*mm));
 
     pthread_mutexattr_init(&mm->mutexattr);                                  //初始化mutex属性对象
