@@ -3,15 +3,8 @@
  */
 #include "epoll_loop.h"
 
-void recvdata(int fd, int events, void *arg);
-void senddata(int fd, int events, void *arg);
-
-/* 描述就绪文件描述符相关信息 */
-
-
-
-
-
+//将自己维护的结构体数据数组的某一个元素进行初始化
+//
 void eventset(struct myevent_s *ev, int fd, void (*call_back)(int, int, void *), void *arg)
 {
     ev->fd = fd;
@@ -28,6 +21,11 @@ void eventset(struct myevent_s *ev, int fd, void (*call_back)(int, int, void *),
 
 /* 向 epoll监听的红黑树 添加一个 文件描述符 */
 
+//向树根中添加一个文件描述符，通过创建一个临时的struct epoll_event epv 对事件进行注册。
+//通过传入的自己定义的结构体数据，对临时的epv进行初始化，
+//然后调用epoll_ctl()函数向红黑树中，建立一个根！
+//首先对它进行一个判定，如果不在树中则添加，在树中，则修改。
+
 void eventadd(int efd, int events, struct myevent_s *ev)
 {
     struct epoll_event epv = {0, {0}};
@@ -35,8 +33,8 @@ void eventadd(int efd, int events, struct myevent_s *ev)
     epv.data.ptr = ev;
     epv.events = ev->events = events;       //EPOLLIN 或 EPOLLOUT
 
-    if (ev->status == 1) {                                          //已经在红黑树 g_efd 里
-        op = EPOLL_CTL_MOD;                                         //修改其属性
+    if (ev->status == 1) {                  //已经在红黑树 g_efd 里
+        op = EPOLL_CTL_MOD;                 //修改其属性
     } else {                                //不在红黑树里
         op = EPOLL_CTL_ADD;                 //将其加入红黑树 g_efd, 并将status置1
         ev->status = 1;
@@ -60,7 +58,7 @@ void eventdel(int efd, struct myevent_s *ev)
         return ;
 
     epv.data.ptr = ev;
-    ev->status = 0;                                             //修改状态
+    ev->status = 0;        //improtant                               //修改状态
     epoll_ctl(efd, EPOLL_CTL_DEL, ev->fd, &epv);                //从红黑树 efd 上将 ev->fd 摘除
 
     return ;
