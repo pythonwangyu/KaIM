@@ -1,19 +1,10 @@
-src = $(wildcard *.c)
-obj = $(patsubst %.c,%.o,$(src))
-target = $(patsubst %.c,%,$(src))
+server:epoll_loop.c main.c
+	gcc -c epoll_loop.c
+	gcc -c main.c
+	gcc epoll_loop.o main.o -o server
 
-
-flag = -lpthread -g -Wall
-
-all:$(target) $(obj)
-
-
-%.o:%.c
-	gcc -c $(<)
-%:%.o
-	gcc $(<) -o $(@) $(flag)
-
-.PYONY:clean
 
 clean:
-	-rm -rf *.o $(target)
+	rm *.o server
+
+
