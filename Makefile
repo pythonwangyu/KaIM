@@ -3,4 +3,3 @@ obj = $(patsubst %.c,%.o,$(src))
 exe = $(patsubst %.c,%,$(src))
 
 
-
