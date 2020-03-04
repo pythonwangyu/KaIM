@@ -4,4 +4,3 @@ exe = $(patsubst %.c,%,$(src))
 
 
 
-
