@@ -6,5 +6,3 @@ exe = $(patsubst %.c,%,$(src))
 
 
 
-clean:
-	-rm *.o 
