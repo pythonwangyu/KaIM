@@ -1,6 +1,11 @@
-/*
- *epoll基于非阻塞I/O事件驱动
- */
+//epoll基于非阻塞I/O事件驱动
+//使用的是回调函数的机制，可以快速进行响应
+//
+ 
+
+
+
+
 #include "epoll_loop.h"
 
 //将自己维护的结构体数据数组的某一个元素进行初始化
@@ -12,8 +17,8 @@ void eventset(struct myevent_s *ev, int fd, void (*call_back)(int, int, void *),
     ev->events = 0;
     ev->arg = arg;
     ev->status = 0;
-    //memset(ev->buf, 0, sizeof(ev->buf));
-    //ev->len = 0;
+    memset(ev->buf, 0, sizeof(ev->buf));
+    ev->len = 0;
     ev->last_active = time(NULL);                       //调用eventset函数的时间
 
     return;
