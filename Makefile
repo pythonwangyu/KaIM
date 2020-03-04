@@ -8,4 +8,4 @@ exe = $(patsubst %.c,%,$(src))
 all:
 
 clean:
-
+	-rm *.o
