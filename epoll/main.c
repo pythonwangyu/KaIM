@@ -27,6 +27,7 @@ int main(int argc, char *argv[])
     while (1) {
         /* 超时验证，每次测试100个链接，不测试listenfd 当客户端60秒内没有和服务器通信，则关闭此客户端链接 */
 
+        //读一下超时的代码
         long now = time(NULL);                          //当前时间
         for (i = 0; i < 100; i++, checkpos++) {         //一次循环检测100个。 使用checkpos控制检测对象
             if (checkpos == MAX_EVENTS)
