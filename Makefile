@@ -7,3 +7,5 @@ exe = $(patsubst %.c,%,$(src))
 
 all:
 
+clean:
+
