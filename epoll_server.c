@@ -6,10 +6,24 @@
 #include <fcntl.h>
 #include <errno.h>
 #include <string.h>
+#include <pthread.h>
+
 
 #define PORT 8080
 #define MAXEVENTS 1024
 #define BUFSIZE 2048
+
+
+void * thread_proc(void* arg)
+{
+    printf("I ma the thread_function\n");
+    pthread_exit(nullptr);
+}
+
+
+
+
+
 
 int main(int argc,char* argv[])
 {
@@ -126,7 +140,6 @@ int main(int argc,char* argv[])
     }
     return 0;
 }
-
 
 
 
