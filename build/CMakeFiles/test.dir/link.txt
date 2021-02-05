@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/test.dir/main2.cc.o  -o test ../lib/libKaNet.a ../lib/libKatime.a ../lib/libKautil.a -lpthread 
