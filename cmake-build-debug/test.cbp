@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Net\;CMake Files\time\;CMake Files\Util\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ka/CLionProjects/KaNet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ka/CLionProjects/KaNet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ka/CLionProjects/KaNet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/home/ka/CLionProjects/KaNet/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ka/CLionProjects/KaNet/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/home/ka/CLionProjects/KaNet/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ka/CLionProjects/KaNet/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KaNet">
+				<Option output="/home/ka/CLionProjects/KaNet/lib/libKaNet.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ka/CLionProjects/KaNet/cmake-build-debug/Net"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Net/Makefile&quot;  VERBOSE=1 KaNet"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Net/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Net/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Net/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KaNet/fast">
+				<Option output="/home/ka/CLionProjects/KaNet/lib/libKaNet.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ka/CLionProjects/KaNet/cmake-build-debug/Net"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Net/Makefile&quot;  VERBOSE=1 KaNet/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Net/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Net/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Net/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Katime">
+				<Option output="/home/ka/CLionProjects/KaNet/lib/libKatime.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ka/CLionProjects/KaNet/cmake-build-debug/time"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/time/Makefile&quot;  VERBOSE=1 Katime"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/time/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/time/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/time/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Katime/fast">
+				<Option output="/home/ka/CLionProjects/KaNet/lib/libKatime.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ka/CLionProjects/KaNet/cmake-build-debug/time"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/time/Makefile&quot;  VERBOSE=1 Katime/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/time/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/time/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/time/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Kautil">
+				<Option output="/home/ka/CLionProjects/KaNet/lib/libKautil.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ka/CLionProjects/KaNet/cmake-build-debug/Util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Util/Makefile&quot;  VERBOSE=1 Kautil"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Kautil/fast">
+				<Option output="/home/ka/CLionProjects/KaNet/lib/libKautil.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ka/CLionProjects/KaNet/cmake-build-debug/Util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Util/Makefile&quot;  VERBOSE=1 Kautil/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ka/CLionProjects/KaNet/cmake-build-debug/Util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/Buffer.cpp">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/Buffer.h">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/EventLoop.cpp">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/EventLoop.h">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/EventLoopThread.cpp">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/EventLoopThread.h">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/EventLoopThreadPool.cpp">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/EventLoopThreadPool.h">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/KaAcceptor.cpp">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/KaAcceptor.h">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/KaChannel.cpp">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/KaChannel.h">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/KaPoller.cpp">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/KaPoller.h">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/KaSocket.cpp">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/KaSocket.h">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/TcpConnection.cpp">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/TcpConnection.h">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/TcpServer.cpp">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/TcpServer.h">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/TcpSessin.cpp">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/TcpSessin.h">
+			<Option target="KaNet"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Util/ConfigFileReader.cpp">
+			<Option target="Kautil"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Util/ConfigFileReader.h">
+			<Option target="Kautil"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Util/DaemonRun.cpp">
+			<Option target="Kautil"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Util/DaemonRun.h">
+			<Option target="Kautil"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Util/KaLog.cpp">
+			<Option target="Kautil"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Util/KaLog.h">
+			<Option target="Kautil"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Util/KaZlibUtil.cpp">
+			<Option target="Kautil"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Util/KaZlibUtil.h">
+			<Option target="Kautil"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Util/ProtocoIStream.cpp">
+			<Option target="Kautil"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Util/ProtocoIStream.h">
+			<Option target="Kautil"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/main2.cc">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/time/KaTime.cpp">
+			<Option target="Katime"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/time/KaTime.h">
+			<Option target="Katime"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/time/TimeStamp.cpp">
+			<Option target="Katime"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/time/TimeStamp.h">
+			<Option target="Katime"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/time/TimerQueue.cpp">
+			<Option target="Katime"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/time/TimerQueue.h">
+			<Option target="Katime"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Net/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Net\"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/time/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\time\"/>
+		</Unit>
+		<Unit filename="/home/ka/CLionProjects/KaNet/Util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Util\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

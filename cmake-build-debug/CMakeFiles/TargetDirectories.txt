@@ -1,0 +1,12 @@
+/home/ka/CLionProjects/KaNet/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ka/CLionProjects/KaNet/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ka/CLionProjects/KaNet/cmake-build-debug/CMakeFiles/test.dir
+/home/ka/CLionProjects/KaNet/cmake-build-debug/Net/CMakeFiles/rebuild_cache.dir
+/home/ka/CLionProjects/KaNet/cmake-build-debug/Net/CMakeFiles/edit_cache.dir
+/home/ka/CLionProjects/KaNet/cmake-build-debug/Net/CMakeFiles/KaNet.dir
+/home/ka/CLionProjects/KaNet/cmake-build-debug/time/CMakeFiles/rebuild_cache.dir
+/home/ka/CLionProjects/KaNet/cmake-build-debug/time/CMakeFiles/edit_cache.dir
+/home/ka/CLionProjects/KaNet/cmake-build-debug/time/CMakeFiles/Katime.dir
+/home/ka/CLionProjects/KaNet/cmake-build-debug/Util/CMakeFiles/rebuild_cache.dir
+/home/ka/CLionProjects/KaNet/cmake-build-debug/Util/CMakeFiles/edit_cache.dir
+/home/ka/CLionProjects/KaNet/cmake-build-debug/Util/CMakeFiles/Kautil.dir

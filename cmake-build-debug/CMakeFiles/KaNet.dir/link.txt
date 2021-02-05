@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/KaNet.dir/main.cpp.o  -o KaNet   -L/home/ka/CLionProjects/KaNet/cmake-build-debug/lib  -Wl,-rpath,/home/ka/CLionProjects/KaNet/cmake-build-debug/lib -lkanet time/libKatime.a Util/libKautil.a 

@@ -1,0 +1,19 @@
+syntax = "proto3";
+package IMBase;
+option optimize_for = LITE_RUNTIME;
+
+
+message UserInfo{
+    uint32 user_id = 1;
+    uint32 user_gender = 2;
+    string user_nick_name = 3;
+    string passwd=4;
+    uint32 status = 5;
+}
+
+
+message ChatMessage{
+    uint32 sendId = 1;
+    uint32 targetId =2;
+    string chatData = 3;
+}
