@@ -68,10 +68,10 @@ RM = /home/ka/Downloads/clion-2020.3.1/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ka/CLionProjects/KaNet
+CMAKE_SOURCE_DIR = /home/ka/CLionProjects/KaIM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ka/CLionProjects/KaNet/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ka/CLionProjects/KaIM/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/ka/CLionProjects/KaNet/cmake-build-debug/CMakeFiles /home/ka/CLionProjects/KaNet/cmake-build-debug/Net/CMakeFiles/progress.marks
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Net/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ka/CLionProjects/KaNet/cmake-build-debug/CMakeFiles 0
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/ka/CLionProjects/KaIM/cmake-build-debug/CMakeFiles /home/ka/CLionProjects/KaIM/cmake-build-debug/Net/CMakeFiles/progress.marks
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Net/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ka/CLionProjects/KaIM/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Net/clean
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Net/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,22 +117,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Net/preinstall
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Net/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Net/preinstall
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Net/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Net/CMakeFiles/KaNet.dir/rule:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Net/CMakeFiles/KaNet.dir/rule
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Net/CMakeFiles/KaNet.dir/rule
 .PHONY : Net/CMakeFiles/KaNet.dir/rule
 
 # Convenience name for target.
@@ -142,7 +142,7 @@ KaNet: Net/CMakeFiles/KaNet.dir/rule
 
 # fast build rule for target.
 KaNet/fast:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/build
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/build
 .PHONY : KaNet/fast
 
 Buffer.o: Buffer.cpp.o
@@ -151,7 +151,7 @@ Buffer.o: Buffer.cpp.o
 
 # target to build an object file
 Buffer.cpp.o:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/Buffer.cpp.o
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/Buffer.cpp.o
 .PHONY : Buffer.cpp.o
 
 Buffer.i: Buffer.cpp.i
@@ -160,7 +160,7 @@ Buffer.i: Buffer.cpp.i
 
 # target to preprocess a source file
 Buffer.cpp.i:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/Buffer.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/Buffer.cpp.i
 .PHONY : Buffer.cpp.i
 
 Buffer.s: Buffer.cpp.s
@@ -169,7 +169,7 @@ Buffer.s: Buffer.cpp.s
 
 # target to generate assembly for a file
 Buffer.cpp.s:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/Buffer.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/Buffer.cpp.s
 .PHONY : Buffer.cpp.s
 
 EventLoop.o: EventLoop.cpp.o
@@ -178,7 +178,7 @@ EventLoop.o: EventLoop.cpp.o
 
 # target to build an object file
 EventLoop.cpp.o:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/EventLoop.cpp.o
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/EventLoop.cpp.o
 .PHONY : EventLoop.cpp.o
 
 EventLoop.i: EventLoop.cpp.i
@@ -187,7 +187,7 @@ EventLoop.i: EventLoop.cpp.i
 
 # target to preprocess a source file
 EventLoop.cpp.i:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/EventLoop.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/EventLoop.cpp.i
 .PHONY : EventLoop.cpp.i
 
 EventLoop.s: EventLoop.cpp.s
@@ -196,7 +196,7 @@ EventLoop.s: EventLoop.cpp.s
 
 # target to generate assembly for a file
 EventLoop.cpp.s:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/EventLoop.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/EventLoop.cpp.s
 .PHONY : EventLoop.cpp.s
 
 EventLoopThread.o: EventLoopThread.cpp.o
@@ -205,7 +205,7 @@ EventLoopThread.o: EventLoopThread.cpp.o
 
 # target to build an object file
 EventLoopThread.cpp.o:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/EventLoopThread.cpp.o
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/EventLoopThread.cpp.o
 .PHONY : EventLoopThread.cpp.o
 
 EventLoopThread.i: EventLoopThread.cpp.i
@@ -214,7 +214,7 @@ EventLoopThread.i: EventLoopThread.cpp.i
 
 # target to preprocess a source file
 EventLoopThread.cpp.i:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/EventLoopThread.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/EventLoopThread.cpp.i
 .PHONY : EventLoopThread.cpp.i
 
 EventLoopThread.s: EventLoopThread.cpp.s
@@ -223,7 +223,7 @@ EventLoopThread.s: EventLoopThread.cpp.s
 
 # target to generate assembly for a file
 EventLoopThread.cpp.s:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/EventLoopThread.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/EventLoopThread.cpp.s
 .PHONY : EventLoopThread.cpp.s
 
 EventLoopThreadPool.o: EventLoopThreadPool.cpp.o
@@ -232,7 +232,7 @@ EventLoopThreadPool.o: EventLoopThreadPool.cpp.o
 
 # target to build an object file
 EventLoopThreadPool.cpp.o:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/EventLoopThreadPool.cpp.o
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/EventLoopThreadPool.cpp.o
 .PHONY : EventLoopThreadPool.cpp.o
 
 EventLoopThreadPool.i: EventLoopThreadPool.cpp.i
@@ -241,7 +241,7 @@ EventLoopThreadPool.i: EventLoopThreadPool.cpp.i
 
 # target to preprocess a source file
 EventLoopThreadPool.cpp.i:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/EventLoopThreadPool.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/EventLoopThreadPool.cpp.i
 .PHONY : EventLoopThreadPool.cpp.i
 
 EventLoopThreadPool.s: EventLoopThreadPool.cpp.s
@@ -250,7 +250,7 @@ EventLoopThreadPool.s: EventLoopThreadPool.cpp.s
 
 # target to generate assembly for a file
 EventLoopThreadPool.cpp.s:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/EventLoopThreadPool.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/EventLoopThreadPool.cpp.s
 .PHONY : EventLoopThreadPool.cpp.s
 
 KaAcceptor.o: KaAcceptor.cpp.o
@@ -259,7 +259,7 @@ KaAcceptor.o: KaAcceptor.cpp.o
 
 # target to build an object file
 KaAcceptor.cpp.o:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaAcceptor.cpp.o
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaAcceptor.cpp.o
 .PHONY : KaAcceptor.cpp.o
 
 KaAcceptor.i: KaAcceptor.cpp.i
@@ -268,7 +268,7 @@ KaAcceptor.i: KaAcceptor.cpp.i
 
 # target to preprocess a source file
 KaAcceptor.cpp.i:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaAcceptor.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaAcceptor.cpp.i
 .PHONY : KaAcceptor.cpp.i
 
 KaAcceptor.s: KaAcceptor.cpp.s
@@ -277,7 +277,7 @@ KaAcceptor.s: KaAcceptor.cpp.s
 
 # target to generate assembly for a file
 KaAcceptor.cpp.s:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaAcceptor.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaAcceptor.cpp.s
 .PHONY : KaAcceptor.cpp.s
 
 KaChannel.o: KaChannel.cpp.o
@@ -286,7 +286,7 @@ KaChannel.o: KaChannel.cpp.o
 
 # target to build an object file
 KaChannel.cpp.o:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaChannel.cpp.o
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaChannel.cpp.o
 .PHONY : KaChannel.cpp.o
 
 KaChannel.i: KaChannel.cpp.i
@@ -295,7 +295,7 @@ KaChannel.i: KaChannel.cpp.i
 
 # target to preprocess a source file
 KaChannel.cpp.i:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaChannel.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaChannel.cpp.i
 .PHONY : KaChannel.cpp.i
 
 KaChannel.s: KaChannel.cpp.s
@@ -304,7 +304,7 @@ KaChannel.s: KaChannel.cpp.s
 
 # target to generate assembly for a file
 KaChannel.cpp.s:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaChannel.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaChannel.cpp.s
 .PHONY : KaChannel.cpp.s
 
 KaPoller.o: KaPoller.cpp.o
@@ -313,7 +313,7 @@ KaPoller.o: KaPoller.cpp.o
 
 # target to build an object file
 KaPoller.cpp.o:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaPoller.cpp.o
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaPoller.cpp.o
 .PHONY : KaPoller.cpp.o
 
 KaPoller.i: KaPoller.cpp.i
@@ -322,7 +322,7 @@ KaPoller.i: KaPoller.cpp.i
 
 # target to preprocess a source file
 KaPoller.cpp.i:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaPoller.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaPoller.cpp.i
 .PHONY : KaPoller.cpp.i
 
 KaPoller.s: KaPoller.cpp.s
@@ -331,7 +331,7 @@ KaPoller.s: KaPoller.cpp.s
 
 # target to generate assembly for a file
 KaPoller.cpp.s:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaPoller.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaPoller.cpp.s
 .PHONY : KaPoller.cpp.s
 
 KaSocket.o: KaSocket.cpp.o
@@ -340,7 +340,7 @@ KaSocket.o: KaSocket.cpp.o
 
 # target to build an object file
 KaSocket.cpp.o:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaSocket.cpp.o
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaSocket.cpp.o
 .PHONY : KaSocket.cpp.o
 
 KaSocket.i: KaSocket.cpp.i
@@ -349,7 +349,7 @@ KaSocket.i: KaSocket.cpp.i
 
 # target to preprocess a source file
 KaSocket.cpp.i:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaSocket.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaSocket.cpp.i
 .PHONY : KaSocket.cpp.i
 
 KaSocket.s: KaSocket.cpp.s
@@ -358,7 +358,7 @@ KaSocket.s: KaSocket.cpp.s
 
 # target to generate assembly for a file
 KaSocket.cpp.s:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaSocket.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/KaSocket.cpp.s
 .PHONY : KaSocket.cpp.s
 
 TcpConnection.o: TcpConnection.cpp.o
@@ -367,7 +367,7 @@ TcpConnection.o: TcpConnection.cpp.o
 
 # target to build an object file
 TcpConnection.cpp.o:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/TcpConnection.cpp.o
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/TcpConnection.cpp.o
 .PHONY : TcpConnection.cpp.o
 
 TcpConnection.i: TcpConnection.cpp.i
@@ -376,7 +376,7 @@ TcpConnection.i: TcpConnection.cpp.i
 
 # target to preprocess a source file
 TcpConnection.cpp.i:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/TcpConnection.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/TcpConnection.cpp.i
 .PHONY : TcpConnection.cpp.i
 
 TcpConnection.s: TcpConnection.cpp.s
@@ -385,7 +385,7 @@ TcpConnection.s: TcpConnection.cpp.s
 
 # target to generate assembly for a file
 TcpConnection.cpp.s:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/TcpConnection.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/TcpConnection.cpp.s
 .PHONY : TcpConnection.cpp.s
 
 TcpServer.o: TcpServer.cpp.o
@@ -394,7 +394,7 @@ TcpServer.o: TcpServer.cpp.o
 
 # target to build an object file
 TcpServer.cpp.o:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/TcpServer.cpp.o
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/TcpServer.cpp.o
 .PHONY : TcpServer.cpp.o
 
 TcpServer.i: TcpServer.cpp.i
@@ -403,7 +403,7 @@ TcpServer.i: TcpServer.cpp.i
 
 # target to preprocess a source file
 TcpServer.cpp.i:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/TcpServer.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/TcpServer.cpp.i
 .PHONY : TcpServer.cpp.i
 
 TcpServer.s: TcpServer.cpp.s
@@ -412,7 +412,7 @@ TcpServer.s: TcpServer.cpp.s
 
 # target to generate assembly for a file
 TcpServer.cpp.s:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/TcpServer.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/TcpServer.cpp.s
 .PHONY : TcpServer.cpp.s
 
 TcpSessin.o: TcpSessin.cpp.o
@@ -421,7 +421,7 @@ TcpSessin.o: TcpSessin.cpp.o
 
 # target to build an object file
 TcpSessin.cpp.o:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/TcpSessin.cpp.o
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/TcpSessin.cpp.o
 .PHONY : TcpSessin.cpp.o
 
 TcpSessin.i: TcpSessin.cpp.i
@@ -430,7 +430,7 @@ TcpSessin.i: TcpSessin.cpp.i
 
 # target to preprocess a source file
 TcpSessin.cpp.i:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/TcpSessin.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/TcpSessin.cpp.i
 .PHONY : TcpSessin.cpp.i
 
 TcpSessin.s: TcpSessin.cpp.s
@@ -439,7 +439,7 @@ TcpSessin.s: TcpSessin.cpp.s
 
 # target to generate assembly for a file
 TcpSessin.cpp.s:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/TcpSessin.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Net/CMakeFiles/KaNet.dir/build.make Net/CMakeFiles/KaNet.dir/TcpSessin.cpp.s
 .PHONY : TcpSessin.cpp.s
 
 # Help Target
@@ -495,6 +495,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

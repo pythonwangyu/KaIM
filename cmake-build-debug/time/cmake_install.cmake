@@ -1,4 +1,4 @@
-# Install script for directory: /home/ka/CLionProjects/KaNet/time
+# Install script for directory: /home/ka/CLionProjects/KaIM/time
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

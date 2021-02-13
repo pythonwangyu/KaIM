@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Katime.dir/KaTime.cpp.o"
   "CMakeFiles/Katime.dir/TimeStamp.cpp.o"
   "CMakeFiles/Katime.dir/TimerQueue.cpp.o"
+  "CMakeFiles/Katime.dir/example.cc.o"
 )
 
 # Per-language clean rules from dependency scanning.

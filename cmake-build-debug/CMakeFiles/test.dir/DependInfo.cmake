@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ka/CLionProjects/KaNet/main2.cc" "/home/ka/CLionProjects/KaNet/cmake-build-debug/CMakeFiles/test.dir/main2.cc.o"
+  "/home/ka/CLionProjects/KaIM/main2.cc" "/home/ka/CLionProjects/KaIM/cmake-build-debug/CMakeFiles/test.dir/main2.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -14,9 +14,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ka/CLionProjects/KaNet/cmake-build-debug/Net/CMakeFiles/KaNet.dir/DependInfo.cmake"
-  "/home/ka/CLionProjects/KaNet/cmake-build-debug/time/CMakeFiles/Katime.dir/DependInfo.cmake"
-  "/home/ka/CLionProjects/KaNet/cmake-build-debug/Util/CMakeFiles/Kautil.dir/DependInfo.cmake"
+  "/home/ka/CLionProjects/KaIM/cmake-build-debug/Net/CMakeFiles/KaNet.dir/DependInfo.cmake"
+  "/home/ka/CLionProjects/KaIM/cmake-build-debug/time/CMakeFiles/Katime.dir/DependInfo.cmake"
+  "/home/ka/CLionProjects/KaIM/cmake-build-debug/Util/CMakeFiles/Kautil.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

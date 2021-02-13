@@ -68,10 +68,10 @@ RM = /home/ka/Downloads/clion-2020.3.1/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ka/CLionProjects/KaNet
+CMAKE_SOURCE_DIR = /home/ka/CLionProjects/KaIM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ka/CLionProjects/KaNet/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ka/CLionProjects/KaIM/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/ka/CLionProjects/KaNet/cmake-build-debug/CMakeFiles /home/ka/CLionProjects/KaNet/cmake-build-debug/Util/CMakeFiles/progress.marks
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Util/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ka/CLionProjects/KaNet/cmake-build-debug/CMakeFiles 0
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/ka/CLionProjects/KaIM/cmake-build-debug/CMakeFiles /home/ka/CLionProjects/KaIM/cmake-build-debug/Util/CMakeFiles/progress.marks
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Util/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ka/CLionProjects/KaIM/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Util/clean
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Util/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,22 +117,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Util/preinstall
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Util/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Util/preinstall
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Util/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Util/CMakeFiles/Kautil.dir/rule:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Util/CMakeFiles/Kautil.dir/rule
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Util/CMakeFiles/Kautil.dir/rule
 .PHONY : Util/CMakeFiles/Kautil.dir/rule
 
 # Convenience name for target.
@@ -142,7 +142,7 @@ Kautil: Util/CMakeFiles/Kautil.dir/rule
 
 # fast build rule for target.
 Kautil/fast:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/build
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/build
 .PHONY : Kautil/fast
 
 ConfigFileReader.o: ConfigFileReader.cpp.o
@@ -151,7 +151,7 @@ ConfigFileReader.o: ConfigFileReader.cpp.o
 
 # target to build an object file
 ConfigFileReader.cpp.o:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/ConfigFileReader.cpp.o
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/ConfigFileReader.cpp.o
 .PHONY : ConfigFileReader.cpp.o
 
 ConfigFileReader.i: ConfigFileReader.cpp.i
@@ -160,7 +160,7 @@ ConfigFileReader.i: ConfigFileReader.cpp.i
 
 # target to preprocess a source file
 ConfigFileReader.cpp.i:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/ConfigFileReader.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/ConfigFileReader.cpp.i
 .PHONY : ConfigFileReader.cpp.i
 
 ConfigFileReader.s: ConfigFileReader.cpp.s
@@ -169,7 +169,7 @@ ConfigFileReader.s: ConfigFileReader.cpp.s
 
 # target to generate assembly for a file
 ConfigFileReader.cpp.s:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/ConfigFileReader.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/ConfigFileReader.cpp.s
 .PHONY : ConfigFileReader.cpp.s
 
 DaemonRun.o: DaemonRun.cpp.o
@@ -178,7 +178,7 @@ DaemonRun.o: DaemonRun.cpp.o
 
 # target to build an object file
 DaemonRun.cpp.o:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/DaemonRun.cpp.o
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/DaemonRun.cpp.o
 .PHONY : DaemonRun.cpp.o
 
 DaemonRun.i: DaemonRun.cpp.i
@@ -187,7 +187,7 @@ DaemonRun.i: DaemonRun.cpp.i
 
 # target to preprocess a source file
 DaemonRun.cpp.i:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/DaemonRun.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/DaemonRun.cpp.i
 .PHONY : DaemonRun.cpp.i
 
 DaemonRun.s: DaemonRun.cpp.s
@@ -196,7 +196,7 @@ DaemonRun.s: DaemonRun.cpp.s
 
 # target to generate assembly for a file
 DaemonRun.cpp.s:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/DaemonRun.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/DaemonRun.cpp.s
 .PHONY : DaemonRun.cpp.s
 
 KaLog.o: KaLog.cpp.o
@@ -205,7 +205,7 @@ KaLog.o: KaLog.cpp.o
 
 # target to build an object file
 KaLog.cpp.o:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/KaLog.cpp.o
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/KaLog.cpp.o
 .PHONY : KaLog.cpp.o
 
 KaLog.i: KaLog.cpp.i
@@ -214,7 +214,7 @@ KaLog.i: KaLog.cpp.i
 
 # target to preprocess a source file
 KaLog.cpp.i:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/KaLog.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/KaLog.cpp.i
 .PHONY : KaLog.cpp.i
 
 KaLog.s: KaLog.cpp.s
@@ -223,7 +223,7 @@ KaLog.s: KaLog.cpp.s
 
 # target to generate assembly for a file
 KaLog.cpp.s:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/KaLog.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/KaLog.cpp.s
 .PHONY : KaLog.cpp.s
 
 KaZlibUtil.o: KaZlibUtil.cpp.o
@@ -232,7 +232,7 @@ KaZlibUtil.o: KaZlibUtil.cpp.o
 
 # target to build an object file
 KaZlibUtil.cpp.o:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/KaZlibUtil.cpp.o
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/KaZlibUtil.cpp.o
 .PHONY : KaZlibUtil.cpp.o
 
 KaZlibUtil.i: KaZlibUtil.cpp.i
@@ -241,7 +241,7 @@ KaZlibUtil.i: KaZlibUtil.cpp.i
 
 # target to preprocess a source file
 KaZlibUtil.cpp.i:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/KaZlibUtil.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/KaZlibUtil.cpp.i
 .PHONY : KaZlibUtil.cpp.i
 
 KaZlibUtil.s: KaZlibUtil.cpp.s
@@ -250,7 +250,7 @@ KaZlibUtil.s: KaZlibUtil.cpp.s
 
 # target to generate assembly for a file
 KaZlibUtil.cpp.s:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/KaZlibUtil.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/KaZlibUtil.cpp.s
 .PHONY : KaZlibUtil.cpp.s
 
 ProtocoIStream.o: ProtocoIStream.cpp.o
@@ -259,7 +259,7 @@ ProtocoIStream.o: ProtocoIStream.cpp.o
 
 # target to build an object file
 ProtocoIStream.cpp.o:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/ProtocoIStream.cpp.o
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/ProtocoIStream.cpp.o
 .PHONY : ProtocoIStream.cpp.o
 
 ProtocoIStream.i: ProtocoIStream.cpp.i
@@ -268,7 +268,7 @@ ProtocoIStream.i: ProtocoIStream.cpp.i
 
 # target to preprocess a source file
 ProtocoIStream.cpp.i:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/ProtocoIStream.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/ProtocoIStream.cpp.i
 .PHONY : ProtocoIStream.cpp.i
 
 ProtocoIStream.s: ProtocoIStream.cpp.s
@@ -277,7 +277,7 @@ ProtocoIStream.s: ProtocoIStream.cpp.s
 
 # target to generate assembly for a file
 ProtocoIStream.cpp.s:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/ProtocoIStream.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Util/CMakeFiles/Kautil.dir/build.make Util/CMakeFiles/Kautil.dir/ProtocoIStream.cpp.s
 .PHONY : ProtocoIStream.cpp.s
 
 # Help Target
@@ -315,6 +315,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

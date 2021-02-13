@@ -1,4 +1,4 @@
-# Install script for directory: /home/ka/CLionProjects/KaNet/Net
+# Install script for directory: /home/ka/CLionProjects/KaIM/Net
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

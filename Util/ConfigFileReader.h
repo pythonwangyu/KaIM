@@ -15,7 +15,7 @@
 
 class ConfigFileReader {
 public:
-    ConfigFileReader();
+    ConfigFileReader(const char* fileName);
     ~ConfigFileReader();
 
     char* GetConfigName(const char* name);

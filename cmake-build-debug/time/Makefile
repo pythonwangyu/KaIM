@@ -68,10 +68,10 @@ RM = /home/ka/Downloads/clion-2020.3.1/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ka/CLionProjects/KaNet
+CMAKE_SOURCE_DIR = /home/ka/CLionProjects/KaIM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ka/CLionProjects/KaNet/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ka/CLionProjects/KaIM/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/ka/CLionProjects/KaNet/cmake-build-debug/CMakeFiles /home/ka/CLionProjects/KaNet/cmake-build-debug/time/CMakeFiles/progress.marks
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 time/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ka/CLionProjects/KaNet/cmake-build-debug/CMakeFiles 0
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/ka/CLionProjects/KaIM/cmake-build-debug/CMakeFiles /home/ka/CLionProjects/KaIM/cmake-build-debug/time/CMakeFiles/progress.marks
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 time/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ka/CLionProjects/KaIM/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 time/clean
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 time/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,22 +117,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 time/preinstall
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 time/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 time/preinstall
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 time/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 time/CMakeFiles/Katime.dir/rule:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 time/CMakeFiles/Katime.dir/rule
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 time/CMakeFiles/Katime.dir/rule
 .PHONY : time/CMakeFiles/Katime.dir/rule
 
 # Convenience name for target.
@@ -142,7 +142,7 @@ Katime: time/CMakeFiles/Katime.dir/rule
 
 # fast build rule for target.
 Katime/fast:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/build
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/build
 .PHONY : Katime/fast
 
 KaTime.o: KaTime.cpp.o
@@ -151,7 +151,7 @@ KaTime.o: KaTime.cpp.o
 
 # target to build an object file
 KaTime.cpp.o:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/KaTime.cpp.o
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/KaTime.cpp.o
 .PHONY : KaTime.cpp.o
 
 KaTime.i: KaTime.cpp.i
@@ -160,7 +160,7 @@ KaTime.i: KaTime.cpp.i
 
 # target to preprocess a source file
 KaTime.cpp.i:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/KaTime.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/KaTime.cpp.i
 .PHONY : KaTime.cpp.i
 
 KaTime.s: KaTime.cpp.s
@@ -169,7 +169,7 @@ KaTime.s: KaTime.cpp.s
 
 # target to generate assembly for a file
 KaTime.cpp.s:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/KaTime.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/KaTime.cpp.s
 .PHONY : KaTime.cpp.s
 
 TimeStamp.o: TimeStamp.cpp.o
@@ -178,7 +178,7 @@ TimeStamp.o: TimeStamp.cpp.o
 
 # target to build an object file
 TimeStamp.cpp.o:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/TimeStamp.cpp.o
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/TimeStamp.cpp.o
 .PHONY : TimeStamp.cpp.o
 
 TimeStamp.i: TimeStamp.cpp.i
@@ -187,7 +187,7 @@ TimeStamp.i: TimeStamp.cpp.i
 
 # target to preprocess a source file
 TimeStamp.cpp.i:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/TimeStamp.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/TimeStamp.cpp.i
 .PHONY : TimeStamp.cpp.i
 
 TimeStamp.s: TimeStamp.cpp.s
@@ -196,7 +196,7 @@ TimeStamp.s: TimeStamp.cpp.s
 
 # target to generate assembly for a file
 TimeStamp.cpp.s:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/TimeStamp.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/TimeStamp.cpp.s
 .PHONY : TimeStamp.cpp.s
 
 TimerQueue.o: TimerQueue.cpp.o
@@ -205,7 +205,7 @@ TimerQueue.o: TimerQueue.cpp.o
 
 # target to build an object file
 TimerQueue.cpp.o:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/TimerQueue.cpp.o
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/TimerQueue.cpp.o
 .PHONY : TimerQueue.cpp.o
 
 TimerQueue.i: TimerQueue.cpp.i
@@ -214,7 +214,7 @@ TimerQueue.i: TimerQueue.cpp.i
 
 # target to preprocess a source file
 TimerQueue.cpp.i:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/TimerQueue.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/TimerQueue.cpp.i
 .PHONY : TimerQueue.cpp.i
 
 TimerQueue.s: TimerQueue.cpp.s
@@ -223,8 +223,35 @@ TimerQueue.s: TimerQueue.cpp.s
 
 # target to generate assembly for a file
 TimerQueue.cpp.s:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/TimerQueue.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/TimerQueue.cpp.s
 .PHONY : TimerQueue.cpp.s
+
+example.o: example.cc.o
+
+.PHONY : example.o
+
+# target to build an object file
+example.cc.o:
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/example.cc.o
+.PHONY : example.cc.o
+
+example.i: example.cc.i
+
+.PHONY : example.i
+
+# target to preprocess a source file
+example.cc.i:
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/example.cc.i
+.PHONY : example.cc.i
+
+example.s: example.cc.s
+
+.PHONY : example.s
+
+# target to generate assembly for a file
+example.cc.s:
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(MAKE) $(MAKESILENT) -f time/CMakeFiles/Katime.dir/build.make time/CMakeFiles/Katime.dir/example.cc.s
+.PHONY : example.cc.s
 
 # Help Target
 help:
@@ -244,6 +271,9 @@ help:
 	@echo "... TimerQueue.o"
 	@echo "... TimerQueue.i"
 	@echo "... TimerQueue.s"
+	@echo "... example.o"
+	@echo "... example.i"
+	@echo "... example.s"
 .PHONY : help
 
 
@@ -255,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

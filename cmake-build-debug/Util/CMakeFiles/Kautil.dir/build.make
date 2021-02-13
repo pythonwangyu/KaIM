@@ -63,10 +63,10 @@ RM = /home/ka/Downloads/clion-2020.3.1/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ka/CLionProjects/KaNet
+CMAKE_SOURCE_DIR = /home/ka/CLionProjects/KaIM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ka/CLionProjects/KaNet/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ka/CLionProjects/KaIM/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include Util/CMakeFiles/Kautil.dir/depend.make
@@ -79,68 +79,68 @@ include Util/CMakeFiles/Kautil.dir/flags.make
 
 Util/CMakeFiles/Kautil.dir/ConfigFileReader.cpp.o: Util/CMakeFiles/Kautil.dir/flags.make
 Util/CMakeFiles/Kautil.dir/ConfigFileReader.cpp.o: ../Util/ConfigFileReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ka/CLionProjects/KaNet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Util/CMakeFiles/Kautil.dir/ConfigFileReader.cpp.o"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/Util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Kautil.dir/ConfigFileReader.cpp.o -c /home/ka/CLionProjects/KaNet/Util/ConfigFileReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ka/CLionProjects/KaIM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Util/CMakeFiles/Kautil.dir/ConfigFileReader.cpp.o"
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/Util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Kautil.dir/ConfigFileReader.cpp.o -c /home/ka/CLionProjects/KaIM/Util/ConfigFileReader.cpp
 
 Util/CMakeFiles/Kautil.dir/ConfigFileReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Kautil.dir/ConfigFileReader.cpp.i"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/Util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ka/CLionProjects/KaNet/Util/ConfigFileReader.cpp > CMakeFiles/Kautil.dir/ConfigFileReader.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/Util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ka/CLionProjects/KaIM/Util/ConfigFileReader.cpp > CMakeFiles/Kautil.dir/ConfigFileReader.cpp.i
 
 Util/CMakeFiles/Kautil.dir/ConfigFileReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Kautil.dir/ConfigFileReader.cpp.s"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/Util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ka/CLionProjects/KaNet/Util/ConfigFileReader.cpp -o CMakeFiles/Kautil.dir/ConfigFileReader.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/Util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ka/CLionProjects/KaIM/Util/ConfigFileReader.cpp -o CMakeFiles/Kautil.dir/ConfigFileReader.cpp.s
 
 Util/CMakeFiles/Kautil.dir/DaemonRun.cpp.o: Util/CMakeFiles/Kautil.dir/flags.make
 Util/CMakeFiles/Kautil.dir/DaemonRun.cpp.o: ../Util/DaemonRun.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ka/CLionProjects/KaNet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Util/CMakeFiles/Kautil.dir/DaemonRun.cpp.o"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/Util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Kautil.dir/DaemonRun.cpp.o -c /home/ka/CLionProjects/KaNet/Util/DaemonRun.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ka/CLionProjects/KaIM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Util/CMakeFiles/Kautil.dir/DaemonRun.cpp.o"
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/Util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Kautil.dir/DaemonRun.cpp.o -c /home/ka/CLionProjects/KaIM/Util/DaemonRun.cpp
 
 Util/CMakeFiles/Kautil.dir/DaemonRun.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Kautil.dir/DaemonRun.cpp.i"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/Util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ka/CLionProjects/KaNet/Util/DaemonRun.cpp > CMakeFiles/Kautil.dir/DaemonRun.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/Util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ka/CLionProjects/KaIM/Util/DaemonRun.cpp > CMakeFiles/Kautil.dir/DaemonRun.cpp.i
 
 Util/CMakeFiles/Kautil.dir/DaemonRun.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Kautil.dir/DaemonRun.cpp.s"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/Util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ka/CLionProjects/KaNet/Util/DaemonRun.cpp -o CMakeFiles/Kautil.dir/DaemonRun.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/Util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ka/CLionProjects/KaIM/Util/DaemonRun.cpp -o CMakeFiles/Kautil.dir/DaemonRun.cpp.s
 
 Util/CMakeFiles/Kautil.dir/KaLog.cpp.o: Util/CMakeFiles/Kautil.dir/flags.make
 Util/CMakeFiles/Kautil.dir/KaLog.cpp.o: ../Util/KaLog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ka/CLionProjects/KaNet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Util/CMakeFiles/Kautil.dir/KaLog.cpp.o"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/Util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Kautil.dir/KaLog.cpp.o -c /home/ka/CLionProjects/KaNet/Util/KaLog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ka/CLionProjects/KaIM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Util/CMakeFiles/Kautil.dir/KaLog.cpp.o"
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/Util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Kautil.dir/KaLog.cpp.o -c /home/ka/CLionProjects/KaIM/Util/KaLog.cpp
 
 Util/CMakeFiles/Kautil.dir/KaLog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Kautil.dir/KaLog.cpp.i"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/Util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ka/CLionProjects/KaNet/Util/KaLog.cpp > CMakeFiles/Kautil.dir/KaLog.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/Util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ka/CLionProjects/KaIM/Util/KaLog.cpp > CMakeFiles/Kautil.dir/KaLog.cpp.i
 
 Util/CMakeFiles/Kautil.dir/KaLog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Kautil.dir/KaLog.cpp.s"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/Util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ka/CLionProjects/KaNet/Util/KaLog.cpp -o CMakeFiles/Kautil.dir/KaLog.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/Util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ka/CLionProjects/KaIM/Util/KaLog.cpp -o CMakeFiles/Kautil.dir/KaLog.cpp.s
 
 Util/CMakeFiles/Kautil.dir/KaZlibUtil.cpp.o: Util/CMakeFiles/Kautil.dir/flags.make
 Util/CMakeFiles/Kautil.dir/KaZlibUtil.cpp.o: ../Util/KaZlibUtil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ka/CLionProjects/KaNet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Util/CMakeFiles/Kautil.dir/KaZlibUtil.cpp.o"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/Util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Kautil.dir/KaZlibUtil.cpp.o -c /home/ka/CLionProjects/KaNet/Util/KaZlibUtil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ka/CLionProjects/KaIM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Util/CMakeFiles/Kautil.dir/KaZlibUtil.cpp.o"
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/Util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Kautil.dir/KaZlibUtil.cpp.o -c /home/ka/CLionProjects/KaIM/Util/KaZlibUtil.cpp
 
 Util/CMakeFiles/Kautil.dir/KaZlibUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Kautil.dir/KaZlibUtil.cpp.i"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/Util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ka/CLionProjects/KaNet/Util/KaZlibUtil.cpp > CMakeFiles/Kautil.dir/KaZlibUtil.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/Util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ka/CLionProjects/KaIM/Util/KaZlibUtil.cpp > CMakeFiles/Kautil.dir/KaZlibUtil.cpp.i
 
 Util/CMakeFiles/Kautil.dir/KaZlibUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Kautil.dir/KaZlibUtil.cpp.s"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/Util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ka/CLionProjects/KaNet/Util/KaZlibUtil.cpp -o CMakeFiles/Kautil.dir/KaZlibUtil.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/Util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ka/CLionProjects/KaIM/Util/KaZlibUtil.cpp -o CMakeFiles/Kautil.dir/KaZlibUtil.cpp.s
 
 Util/CMakeFiles/Kautil.dir/ProtocoIStream.cpp.o: Util/CMakeFiles/Kautil.dir/flags.make
 Util/CMakeFiles/Kautil.dir/ProtocoIStream.cpp.o: ../Util/ProtocoIStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ka/CLionProjects/KaNet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Util/CMakeFiles/Kautil.dir/ProtocoIStream.cpp.o"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/Util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Kautil.dir/ProtocoIStream.cpp.o -c /home/ka/CLionProjects/KaNet/Util/ProtocoIStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ka/CLionProjects/KaIM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Util/CMakeFiles/Kautil.dir/ProtocoIStream.cpp.o"
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/Util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Kautil.dir/ProtocoIStream.cpp.o -c /home/ka/CLionProjects/KaIM/Util/ProtocoIStream.cpp
 
 Util/CMakeFiles/Kautil.dir/ProtocoIStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Kautil.dir/ProtocoIStream.cpp.i"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/Util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ka/CLionProjects/KaNet/Util/ProtocoIStream.cpp > CMakeFiles/Kautil.dir/ProtocoIStream.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/Util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ka/CLionProjects/KaIM/Util/ProtocoIStream.cpp > CMakeFiles/Kautil.dir/ProtocoIStream.cpp.i
 
 Util/CMakeFiles/Kautil.dir/ProtocoIStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Kautil.dir/ProtocoIStream.cpp.s"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/Util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ka/CLionProjects/KaNet/Util/ProtocoIStream.cpp -o CMakeFiles/Kautil.dir/ProtocoIStream.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/Util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ka/CLionProjects/KaIM/Util/ProtocoIStream.cpp -o CMakeFiles/Kautil.dir/ProtocoIStream.cpp.s
 
 # Object files for target Kautil
 Kautil_OBJECTS = \
@@ -160,9 +160,9 @@ Kautil_EXTERNAL_OBJECTS =
 ../lib/libKautil.a: Util/CMakeFiles/Kautil.dir/ProtocoIStream.cpp.o
 ../lib/libKautil.a: Util/CMakeFiles/Kautil.dir/build.make
 ../lib/libKautil.a: Util/CMakeFiles/Kautil.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ka/CLionProjects/KaNet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library ../../lib/libKautil.a"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/Util && $(CMAKE_COMMAND) -P CMakeFiles/Kautil.dir/cmake_clean_target.cmake
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/Util && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Kautil.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ka/CLionProjects/KaIM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library ../../lib/libKautil.a"
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/Util && $(CMAKE_COMMAND) -P CMakeFiles/Kautil.dir/cmake_clean_target.cmake
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/Util && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Kautil.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Util/CMakeFiles/Kautil.dir/build: ../lib/libKautil.a
@@ -170,10 +170,10 @@ Util/CMakeFiles/Kautil.dir/build: ../lib/libKautil.a
 .PHONY : Util/CMakeFiles/Kautil.dir/build
 
 Util/CMakeFiles/Kautil.dir/clean:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/Util && $(CMAKE_COMMAND) -P CMakeFiles/Kautil.dir/cmake_clean.cmake
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/Util && $(CMAKE_COMMAND) -P CMakeFiles/Kautil.dir/cmake_clean.cmake
 .PHONY : Util/CMakeFiles/Kautil.dir/clean
 
 Util/CMakeFiles/Kautil.dir/depend:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ka/CLionProjects/KaNet /home/ka/CLionProjects/KaNet/Util /home/ka/CLionProjects/KaNet/cmake-build-debug /home/ka/CLionProjects/KaNet/cmake-build-debug/Util /home/ka/CLionProjects/KaNet/cmake-build-debug/Util/CMakeFiles/Kautil.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ka/CLionProjects/KaIM /home/ka/CLionProjects/KaIM/Util /home/ka/CLionProjects/KaIM/cmake-build-debug /home/ka/CLionProjects/KaIM/cmake-build-debug/Util /home/ka/CLionProjects/KaIM/cmake-build-debug/Util/CMakeFiles/Kautil.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Util/CMakeFiles/Kautil.dir/depend
 

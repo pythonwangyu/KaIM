@@ -1,4 +1,4 @@
-# Install script for directory: /home/ka/CLionProjects/KaNet/Util
+# Install script for directory: /home/ka/CLionProjects/KaIM/Util
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

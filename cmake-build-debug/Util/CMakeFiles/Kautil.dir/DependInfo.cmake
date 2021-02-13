@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ka/CLionProjects/KaNet/Util/ConfigFileReader.cpp" "/home/ka/CLionProjects/KaNet/cmake-build-debug/Util/CMakeFiles/Kautil.dir/ConfigFileReader.cpp.o"
-  "/home/ka/CLionProjects/KaNet/Util/DaemonRun.cpp" "/home/ka/CLionProjects/KaNet/cmake-build-debug/Util/CMakeFiles/Kautil.dir/DaemonRun.cpp.o"
-  "/home/ka/CLionProjects/KaNet/Util/KaLog.cpp" "/home/ka/CLionProjects/KaNet/cmake-build-debug/Util/CMakeFiles/Kautil.dir/KaLog.cpp.o"
-  "/home/ka/CLionProjects/KaNet/Util/KaZlibUtil.cpp" "/home/ka/CLionProjects/KaNet/cmake-build-debug/Util/CMakeFiles/Kautil.dir/KaZlibUtil.cpp.o"
-  "/home/ka/CLionProjects/KaNet/Util/ProtocoIStream.cpp" "/home/ka/CLionProjects/KaNet/cmake-build-debug/Util/CMakeFiles/Kautil.dir/ProtocoIStream.cpp.o"
+  "/home/ka/CLionProjects/KaIM/Util/ConfigFileReader.cpp" "/home/ka/CLionProjects/KaIM/cmake-build-debug/Util/CMakeFiles/Kautil.dir/ConfigFileReader.cpp.o"
+  "/home/ka/CLionProjects/KaIM/Util/DaemonRun.cpp" "/home/ka/CLionProjects/KaIM/cmake-build-debug/Util/CMakeFiles/Kautil.dir/DaemonRun.cpp.o"
+  "/home/ka/CLionProjects/KaIM/Util/KaLog.cpp" "/home/ka/CLionProjects/KaIM/cmake-build-debug/Util/CMakeFiles/Kautil.dir/KaLog.cpp.o"
+  "/home/ka/CLionProjects/KaIM/Util/KaZlibUtil.cpp" "/home/ka/CLionProjects/KaIM/cmake-build-debug/Util/CMakeFiles/Kautil.dir/KaZlibUtil.cpp.o"
+  "/home/ka/CLionProjects/KaIM/Util/ProtocoIStream.cpp" "/home/ka/CLionProjects/KaIM/cmake-build-debug/Util/CMakeFiles/Kautil.dir/ProtocoIStream.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

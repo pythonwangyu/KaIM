@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ka/CLionProjects/KaNet/time/KaTime.cpp" "/home/ka/CLionProjects/KaNet/cmake-build-debug/time/CMakeFiles/Katime.dir/KaTime.cpp.o"
-  "/home/ka/CLionProjects/KaNet/time/TimeStamp.cpp" "/home/ka/CLionProjects/KaNet/cmake-build-debug/time/CMakeFiles/Katime.dir/TimeStamp.cpp.o"
-  "/home/ka/CLionProjects/KaNet/time/TimerQueue.cpp" "/home/ka/CLionProjects/KaNet/cmake-build-debug/time/CMakeFiles/Katime.dir/TimerQueue.cpp.o"
+  "/home/ka/CLionProjects/KaIM/time/KaTime.cpp" "/home/ka/CLionProjects/KaIM/cmake-build-debug/time/CMakeFiles/Katime.dir/KaTime.cpp.o"
+  "/home/ka/CLionProjects/KaIM/time/TimeStamp.cpp" "/home/ka/CLionProjects/KaIM/cmake-build-debug/time/CMakeFiles/Katime.dir/TimeStamp.cpp.o"
+  "/home/ka/CLionProjects/KaIM/time/TimerQueue.cpp" "/home/ka/CLionProjects/KaIM/cmake-build-debug/time/CMakeFiles/Katime.dir/TimerQueue.cpp.o"
+  "/home/ka/CLionProjects/KaIM/time/example.cc" "/home/ka/CLionProjects/KaIM/cmake-build-debug/time/CMakeFiles/Katime.dir/example.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

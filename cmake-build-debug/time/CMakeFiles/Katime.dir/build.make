@@ -63,10 +63,10 @@ RM = /home/ka/Downloads/clion-2020.3.1/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ka/CLionProjects/KaNet
+CMAKE_SOURCE_DIR = /home/ka/CLionProjects/KaIM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ka/CLionProjects/KaNet/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ka/CLionProjects/KaIM/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include time/CMakeFiles/Katime.dir/depend.make
@@ -79,48 +79,62 @@ include time/CMakeFiles/Katime.dir/flags.make
 
 time/CMakeFiles/Katime.dir/KaTime.cpp.o: time/CMakeFiles/Katime.dir/flags.make
 time/CMakeFiles/Katime.dir/KaTime.cpp.o: ../time/KaTime.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ka/CLionProjects/KaNet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object time/CMakeFiles/Katime.dir/KaTime.cpp.o"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/time && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Katime.dir/KaTime.cpp.o -c /home/ka/CLionProjects/KaNet/time/KaTime.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ka/CLionProjects/KaIM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object time/CMakeFiles/Katime.dir/KaTime.cpp.o"
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/time && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Katime.dir/KaTime.cpp.o -c /home/ka/CLionProjects/KaIM/time/KaTime.cpp
 
 time/CMakeFiles/Katime.dir/KaTime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Katime.dir/KaTime.cpp.i"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ka/CLionProjects/KaNet/time/KaTime.cpp > CMakeFiles/Katime.dir/KaTime.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ka/CLionProjects/KaIM/time/KaTime.cpp > CMakeFiles/Katime.dir/KaTime.cpp.i
 
 time/CMakeFiles/Katime.dir/KaTime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Katime.dir/KaTime.cpp.s"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ka/CLionProjects/KaNet/time/KaTime.cpp -o CMakeFiles/Katime.dir/KaTime.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ka/CLionProjects/KaIM/time/KaTime.cpp -o CMakeFiles/Katime.dir/KaTime.cpp.s
 
 time/CMakeFiles/Katime.dir/TimeStamp.cpp.o: time/CMakeFiles/Katime.dir/flags.make
 time/CMakeFiles/Katime.dir/TimeStamp.cpp.o: ../time/TimeStamp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ka/CLionProjects/KaNet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object time/CMakeFiles/Katime.dir/TimeStamp.cpp.o"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/time && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Katime.dir/TimeStamp.cpp.o -c /home/ka/CLionProjects/KaNet/time/TimeStamp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ka/CLionProjects/KaIM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object time/CMakeFiles/Katime.dir/TimeStamp.cpp.o"
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/time && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Katime.dir/TimeStamp.cpp.o -c /home/ka/CLionProjects/KaIM/time/TimeStamp.cpp
 
 time/CMakeFiles/Katime.dir/TimeStamp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Katime.dir/TimeStamp.cpp.i"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ka/CLionProjects/KaNet/time/TimeStamp.cpp > CMakeFiles/Katime.dir/TimeStamp.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ka/CLionProjects/KaIM/time/TimeStamp.cpp > CMakeFiles/Katime.dir/TimeStamp.cpp.i
 
 time/CMakeFiles/Katime.dir/TimeStamp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Katime.dir/TimeStamp.cpp.s"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ka/CLionProjects/KaNet/time/TimeStamp.cpp -o CMakeFiles/Katime.dir/TimeStamp.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ka/CLionProjects/KaIM/time/TimeStamp.cpp -o CMakeFiles/Katime.dir/TimeStamp.cpp.s
 
 time/CMakeFiles/Katime.dir/TimerQueue.cpp.o: time/CMakeFiles/Katime.dir/flags.make
 time/CMakeFiles/Katime.dir/TimerQueue.cpp.o: ../time/TimerQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ka/CLionProjects/KaNet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object time/CMakeFiles/Katime.dir/TimerQueue.cpp.o"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/time && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Katime.dir/TimerQueue.cpp.o -c /home/ka/CLionProjects/KaNet/time/TimerQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ka/CLionProjects/KaIM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object time/CMakeFiles/Katime.dir/TimerQueue.cpp.o"
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/time && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Katime.dir/TimerQueue.cpp.o -c /home/ka/CLionProjects/KaIM/time/TimerQueue.cpp
 
 time/CMakeFiles/Katime.dir/TimerQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Katime.dir/TimerQueue.cpp.i"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ka/CLionProjects/KaNet/time/TimerQueue.cpp > CMakeFiles/Katime.dir/TimerQueue.cpp.i
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ka/CLionProjects/KaIM/time/TimerQueue.cpp > CMakeFiles/Katime.dir/TimerQueue.cpp.i
 
 time/CMakeFiles/Katime.dir/TimerQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Katime.dir/TimerQueue.cpp.s"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ka/CLionProjects/KaNet/time/TimerQueue.cpp -o CMakeFiles/Katime.dir/TimerQueue.cpp.s
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ka/CLionProjects/KaIM/time/TimerQueue.cpp -o CMakeFiles/Katime.dir/TimerQueue.cpp.s
+
+time/CMakeFiles/Katime.dir/example.cc.o: time/CMakeFiles/Katime.dir/flags.make
+time/CMakeFiles/Katime.dir/example.cc.o: ../time/example.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ka/CLionProjects/KaIM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object time/CMakeFiles/Katime.dir/example.cc.o"
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/time && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Katime.dir/example.cc.o -c /home/ka/CLionProjects/KaIM/time/example.cc
+
+time/CMakeFiles/Katime.dir/example.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Katime.dir/example.cc.i"
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ka/CLionProjects/KaIM/time/example.cc > CMakeFiles/Katime.dir/example.cc.i
+
+time/CMakeFiles/Katime.dir/example.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Katime.dir/example.cc.s"
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ka/CLionProjects/KaIM/time/example.cc -o CMakeFiles/Katime.dir/example.cc.s
 
 # Object files for target Katime
 Katime_OBJECTS = \
 "CMakeFiles/Katime.dir/KaTime.cpp.o" \
 "CMakeFiles/Katime.dir/TimeStamp.cpp.o" \
-"CMakeFiles/Katime.dir/TimerQueue.cpp.o"
+"CMakeFiles/Katime.dir/TimerQueue.cpp.o" \
+"CMakeFiles/Katime.dir/example.cc.o"
 
 # External object files for target Katime
 Katime_EXTERNAL_OBJECTS =
@@ -128,11 +142,12 @@ Katime_EXTERNAL_OBJECTS =
 ../lib/libKatime.a: time/CMakeFiles/Katime.dir/KaTime.cpp.o
 ../lib/libKatime.a: time/CMakeFiles/Katime.dir/TimeStamp.cpp.o
 ../lib/libKatime.a: time/CMakeFiles/Katime.dir/TimerQueue.cpp.o
+../lib/libKatime.a: time/CMakeFiles/Katime.dir/example.cc.o
 ../lib/libKatime.a: time/CMakeFiles/Katime.dir/build.make
 ../lib/libKatime.a: time/CMakeFiles/Katime.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ka/CLionProjects/KaNet/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../../lib/libKatime.a"
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/time && $(CMAKE_COMMAND) -P CMakeFiles/Katime.dir/cmake_clean_target.cmake
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/time && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Katime.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ka/CLionProjects/KaIM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../lib/libKatime.a"
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/time && $(CMAKE_COMMAND) -P CMakeFiles/Katime.dir/cmake_clean_target.cmake
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/time && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Katime.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 time/CMakeFiles/Katime.dir/build: ../lib/libKatime.a
@@ -140,10 +155,10 @@ time/CMakeFiles/Katime.dir/build: ../lib/libKatime.a
 .PHONY : time/CMakeFiles/Katime.dir/build
 
 time/CMakeFiles/Katime.dir/clean:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug/time && $(CMAKE_COMMAND) -P CMakeFiles/Katime.dir/cmake_clean.cmake
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug/time && $(CMAKE_COMMAND) -P CMakeFiles/Katime.dir/cmake_clean.cmake
 .PHONY : time/CMakeFiles/Katime.dir/clean
 
 time/CMakeFiles/Katime.dir/depend:
-	cd /home/ka/CLionProjects/KaNet/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ka/CLionProjects/KaNet /home/ka/CLionProjects/KaNet/time /home/ka/CLionProjects/KaNet/cmake-build-debug /home/ka/CLionProjects/KaNet/cmake-build-debug/time /home/ka/CLionProjects/KaNet/cmake-build-debug/time/CMakeFiles/Katime.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ka/CLionProjects/KaIM/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ka/CLionProjects/KaIM /home/ka/CLionProjects/KaIM/time /home/ka/CLionProjects/KaIM/cmake-build-debug /home/ka/CLionProjects/KaIM/cmake-build-debug/time /home/ka/CLionProjects/KaIM/cmake-build-debug/time/CMakeFiles/Katime.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : time/CMakeFiles/Katime.dir/depend
 

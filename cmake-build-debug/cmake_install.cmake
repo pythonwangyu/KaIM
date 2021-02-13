@@ -1,4 +1,4 @@
-# Install script for directory: /home/ka/CLionProjects/KaNet
+# Install script for directory: /home/ka/CLionProjects/KaIM
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ka/CLionProjects/KaNet/cmake-build-debug/Net/cmake_install.cmake")
-  include("/home/ka/CLionProjects/KaNet/cmake-build-debug/time/cmake_install.cmake")
-  include("/home/ka/CLionProjects/KaNet/cmake-build-debug/Util/cmake_install.cmake")
+  include("/home/ka/CLionProjects/KaIM/cmake-build-debug/Net/cmake_install.cmake")
+  include("/home/ka/CLionProjects/KaIM/cmake-build-debug/time/cmake_install.cmake")
+  include("/home/ka/CLionProjects/KaIM/cmake-build-debug/Util/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ka/CLionProjects/KaNet/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ka/CLionProjects/KaIM/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
