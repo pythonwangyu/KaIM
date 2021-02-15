@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../lib/libKatime.a  CMakeFiles/Katime.dir/KaTime.cpp.o CMakeFiles/Katime.dir/TimeStamp.cpp.o CMakeFiles/Katime.dir/TimerQueue.cpp.o CMakeFiles/Katime.dir/example.cc.o
-/usr/bin/ranlib ../../lib/libKatime.a
