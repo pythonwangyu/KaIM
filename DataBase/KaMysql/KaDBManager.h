@@ -4,6 +4,8 @@
 #include "MysqlBase.h"
 
 #include <mysql/mysql.h>
+#include <mysql/errmsg.h>
+
 #include <list>
 #include <mutex>
 #include <condition_variable>

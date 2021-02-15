@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libKautil.a  CMakeFiles/Kautil.dir/ConfigFileReader.cpp.o CMakeFiles/Kautil.dir/DaemonRun.cpp.o CMakeFiles/Kautil.dir/KaLog.cpp.o CMakeFiles/Kautil.dir/KaZlibUtil.cpp.o CMakeFiles/Kautil.dir/ProtocoIStream.cpp.o
+/usr/bin/ranlib ../../lib/libKautil.a

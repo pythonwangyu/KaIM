@@ -18,7 +18,7 @@ add_subdirectory(Util)
 
 
 # 指定生成目标 
-add_executable(test main2.cc)
+add_executable(test main.cc)
 
 
 # 添加链接库

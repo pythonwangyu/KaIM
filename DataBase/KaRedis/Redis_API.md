@@ -1,7 +1,6 @@
 ## Redis客户端的编译
-
+redis具体中文参考文档:https://www.redis.net.cn/tutorial/3501.html
 #### 1、服务器上Redis的安装
-
 - 系统，ubuntu18
 
 ```bash
@@ -126,6 +125,31 @@ Redis在设计中，使用一个字典来存储所有的键值。在字典的数
 这里又引入了一个问题：在步骤2的大量数据拷贝过程中，可能会导致Redis的mainthread的阻塞，无法处理其他的请求，造成响应过慢的问题。
 
 因此引入了渐进式哈希的方法优化拷贝过程，其实质就是将一个大量拷贝，分散到多次loop过程中。即不是一次将哈希表一次拷贝完毕，而是多次的进行。
+
+##### 2、链表
+
+链表节点
+
+```c
+typedef struct listNode{
+    struct listNode* prev;
+    struct listNode* next;
+    void *value;
+}listNode;
+```
+
+链表
+
+```C
+typedef struct list{
+    listNode* head;
+    listNode* tail;
+    unsigned long len;
+    void* (*dup)(void* ptr);
+   	void* free(void* ptr);
+    int (*match)(void* ptr,void* key);
+}list;
+```
 
 
 
